@@ -1,0 +1,59 @@
+//estilos header
+
+header{
+    background-color: rgb(83, 212, 212);
+    h1{
+        color: rgb(247, 167, 207);
+    
+    }
+    padding: 10px;
+    text-align: center;
+    nav{
+        margin-top: 20px;
+    }
+
+    nav ul li{
+        background-color:rgb(247, 167, 207);
+        display: inline-block;
+        padding: 10px;
+       }
+
+       a img{
+        width: 25%;
+       }
+    
+       }
+
+       /*estilos de main*/
+
+       main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            display:inline-block;
+            margin: 0;
+            vertical-align: top;
+            
+        }
+
+       }
+
+       /*estilos de section*/
+
+       section .card{
+        background-color: rgb(94, 223, 255);
+        margin: 1rem;
+        padding: 1rem;
+       }
+       
+       /* estilos de footer*/
+
+       footer{
+        background-color: rgb(35, 218, 218);
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }
+
