@@ -1,0 +1,68 @@
+@import "../utilidades/variables";
+
+/*estilos registrarte*/
+/*header*/
+header{
+    background-color: $color-principal;
+    h1{
+        color: $color-secundario;
+    
+    }
+}
+
+/*estilos de main*/
+main{
+    h1{
+        color: rgb(50, 4, 94);
+        text-align: center;
+    }
+}
+
+/*estilos form*/
+
+form{
+    text-align: center;
+    color: black;
+    background-color: rgba(9, 194, 194, 0.753);
+}
+
+/*estilos footer*/
+footer{
+    background-color: rgb(35, 218, 218);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+/*header*/
+header{
+    background-color: $color-principal;
+    h1{
+        color: $color-secundario;
+    
+    }
+}
+
+/*estilos de main*/
+main{
+    h1{
+        color: rgb(50, 4, 94);
+        text-align: center;
+    }
+}
+
+/*estilos form*/
+
+form{
+    text-align: center;
+    color: black;
+    background-color: rgba(6, 206, 206, 0.753);
+}
+
+/*estilos footer*/
+footer{
+    background-color: rgb(40, 226, 226);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+

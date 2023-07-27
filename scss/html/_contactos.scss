@@ -1,0 +1,44 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/*estilos de contactos*/
+
+/*main*/
+
+main{
+    p{
+        text-align: center;
+        padding: 5%;
+    }
+     h1, h2, h3, h4{
+        color: rgb(50, 4, 94) ;
+    }
+    section .card{
+        background-color: rgb(39, 204, 204);
+        margin: 1rem;
+        padding: 1rem;
+
+        transform: skew(0.5deg, 0.5deg);
+        box-shadow: 5px 5px 30px rgb(0, 0, 0);
+       }
+    }
+
+/*footer*/
+
+footer{
+      background-color: rgb(35, 218, 218);
+        color: black;
+        padding: 10px;
+        text-align: center;
+
+}
+
+/*estilos de section*/
+
+section .card{
+   @extend %estilos;
+}
+iframe{
+    @include estilos-base(800px, 400px);
+}
